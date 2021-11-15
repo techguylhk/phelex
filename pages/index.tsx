@@ -7,7 +7,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Title Here</title>
       </Head>
-      <div className="text-green-500">Body Here</div>
+      <div className="text-green-500">
+        Body Here <i className="fas fa-user"></i>
+      </div>
     </>
   );
 };
